@@ -46,3 +46,14 @@ a:hover {
     justify-content: space-around;
     align-items: center;
 }
+
+/* დასრულდა header */
+
+.title {
+   
+   margin-top: 200px;
+   display: inline-block;
+   color: rgb(255, 255, 240);
+   font-size: 32px;
+   margin-left: 30px;
+}
