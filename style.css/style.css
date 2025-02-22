@@ -69,3 +69,11 @@ a:hover {
     font-size: 30px;
     color: rgba(156, 246, 242, 0.503);
 }
+.icons {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
+    font-size: 30px;
+    color: rgba(156, 246, 242, 0.503);
+    
+}
