@@ -49,6 +49,11 @@ a:hover {
     justify-content: space-around;
     align-items: center;
 }
+.navbar li {
+    font-family: 'BPG WEB 002 Caps';
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /* დასრულდა header */
 
@@ -76,4 +81,7 @@ a:hover {
     font-size: 30px;
     color: rgba(156, 246, 242, 0.503);
     
+}
+.icons:hover {
+    color: brown;
 }
