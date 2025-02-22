@@ -1,16 +1,19 @@
+@import url("//cdn.web-fonts.ge/fonts/arial-geo-bold/css/arial-geo-bold.min.css");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    width: 100%;
+    /* width: 100%; */
     
     background-color: aquamarine;
     background-image: url("https://nationalparks.ge/files/155255317835%E1%83%99%E1%83%9D%E1%83%9A%E1%83%AE%E1%83%94%E1%83%97%E1%83%981.jpg");
-    /* background-size: cover;
-    background-position: center; */
-    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position: center;  */
+    background-repeat:no-repeat;
+   
+
 }
 
 header {
@@ -53,7 +56,16 @@ a:hover {
    
    margin-top: 200px;
    display: inline-block;
-   color: rgb(255, 255, 240);
-   font-size: 32px;
+   color: rgb(245, 107, 43);
+  
    margin-left: 30px;
+   font-family: 'BPG WEB 002 Caps';
+   font-size: 50px;
+
+}
+.text {
+    margin-left: 30px;
+    font-family: "Arial GEO Bold", sans-serif;
+    font-size: 30px;
+    color: rgba(156, 246, 242, 0.503);
 }
