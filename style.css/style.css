@@ -80,8 +80,15 @@ a:hover {
     right: 10px;
     font-size: 30px;
     color: rgba(156, 246, 242, 0.503);
-    
+    display: flex;
+    gap: 10px;
 }
 .icons:hover {
     color: brown;
 }
+.line {
+    width: 4px;
+    height: 30px;
+    background-color:rgba(156, 246, 242, 0.503); 
+}
+
