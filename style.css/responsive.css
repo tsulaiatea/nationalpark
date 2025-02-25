@@ -1,0 +1,26 @@
+@media (max-width: 768px){
+    .burger {
+        display: block;
+        margin-right: 50px;
+    }
+    .links {
+        display: none;
+        
+
+    }
+    .active {
+        display: block;
+    }
+    .links {
+        flex-direction: column;
+        background-color: blueviolet;
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 50px;
+        top: 70px;
+    }
+    
+    
+
+}
