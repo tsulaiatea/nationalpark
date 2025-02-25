@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.home {
+#home {
     height: 100%;
     
     background-color: aquamarine;
@@ -71,10 +71,7 @@ a:hover {
     font-size: 30px;
     color: rgb(18, 1, 1);
 } 
-.fa-circle-xmark {
-    position: absolute;
-    display: none;
-}
+
 
 
 /* დასრულდა header */

@@ -5,22 +5,20 @@
     }
     .links {
         display: none;
-        
-
-    }
-    .active {
-        display: block;
-    }
-    .links {
         flex-direction: column;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         position: absolute;
         width: 150px;
         height: 150px;
-        left: 50px;
+        right: 20px;
         top: 70px;
+        padding: 10px;
+        
+
     }
-    
-    
+    .active{
+        display: block;
+    }
+ 
 
 }
