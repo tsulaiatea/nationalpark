@@ -18,7 +18,7 @@
 }
 .other {
     background-image: none;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 header {
@@ -111,3 +111,49 @@ a:hover {
     background-color:rgba(156, 246, 242, 0.503); 
 }
 
+/* ნიუსები */
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: 10px;
+    
+}
+.image {
+    width: 500px;
+    /* height: 400px; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    text-align:left;
+    font-size: 15px;
+    font-family: "Arial GEO ", sans-serif;
+    padding-top: 70px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+   
+    
+}
+.img {
+    width: 260px;
+    height: 350px;
+}
+.img:hover {
+    position: contain;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(27, 28, 28, 0.084);
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.foto img {
+   
+    
+    height: 400px;
+}
