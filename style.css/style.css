@@ -173,3 +173,18 @@ a:hover {
     color: rgba(255, 89, 0, 0.797);
     padding: 10px;
     }
+.divider1 {
+    display: flex;
+    justify-content: space-around;
+}
+.servis1 {
+    width: 400px;
+}
+.servis1 img {
+    width: 350px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    
+}
