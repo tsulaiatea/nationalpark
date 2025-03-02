@@ -147,13 +147,29 @@ a:hover {
 .foto {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(27, 28, 28, 0.084);
+    background-color: rgba(170, 243, 152, 0.934);
     margin-left: 10px;
+    margin-top: 10px;
     padding: 5px;
 }
 
 .foto img {
-   
-    
-    height: 400px;
+   height: 400px;
 }
+/* უნდა გავსტილო ტექსტი article*/
+
+
+/* about */
+.servis {
+    margin-top: 75px;
+  border: 5px dashed green;
+}
+.servis h2 {
+    background-color: rgb(133, 230, 98);
+    display: block;
+    text-align: center;
+    font-family: 'BPG WEB 002 Caps';
+    font-size: 24px;
+    color: rgba(255, 89, 0, 0.797);
+    padding: 10px;
+    }
