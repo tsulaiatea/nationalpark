@@ -74,8 +74,13 @@ function setSlider(){
     sliderContainer.innerText=''
     createImg(data[sliderIndex])
     let title = createH2tag(data[sliderIndex])
+    let dots = createDots()
 
     sliderContainer.appendChild(title)
+    sliderContainer.appendChild(dots)
+    let dotElements = dots.querySelectorAll('dot')
+    dotElements[sliderIndex].classList.add('active')
+    
     
 }
 
@@ -109,4 +114,27 @@ arrowRightBtn.addEventListener('click',arrowRight)
 // },3000)
 
 
-setSlider()
+// წერტილები
+function createDots() {
+    let dots = document.createElement('div')
+    dots.classList.add('dots')
+    data.forEach((elemetn)=>{
+        let dot = document.createElement('div')
+        dot.classList.add('dot')
+        dot.setAttribute('data-id',elemetn.id-1)
+
+        dot.onclick = function(event){
+            let id = event.target.getAttribute('data-id')
+            sliderIndex = id
+            setSlider ()
+
+            
+        }
+        dots.appendChild(dot)
+    })
+    return dots
+
+
+    
+}
+
