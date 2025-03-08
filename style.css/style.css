@@ -12,9 +12,9 @@
     height: 85vh;
     position: relative;
     margin: 0 auto;
-    background-color: blue;
+    
     margin-top: 80px;
-    z-index: -1;
+    
 }
 .arrow {
     position: absolute;

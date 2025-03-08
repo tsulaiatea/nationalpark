@@ -23,17 +23,22 @@ let data = [
     {
        id: 1,
        title:"pirveli",
-       imageUrl:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSummer&psig=AOvVaw2kwtw2-ZdmEa6iERxm1aUn&ust=1741555172863000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPjWkd60-4sDFQAAAAAdAAAAABAE"
+       imageUrl:"https://georgiantour.com/wp-content/uploads/2015/04/15121_293888440758581_1896679685_n.jpg"
     },
     {
         id: 2,
         title:"meore",
-        imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgeorgia.travel%2Fka%2F%25E1%2583%2599%25E1%2583%259D%25E1%2583%259A%25E1%2583%25AE%25E1%2583%2594%25E1%2583%2597%25E1%2583%2598%25E1%2583%25A1-%25E1%2583%2594%25E1%2583%25A0%25E1%2583%259D%25E1%2583%2595%25E1%2583%259C%25E1%2583%25A3%25E1%2583%259A%25E1%2583%2598-%25E1%2583%259E%25E1%2583%2590%25E1%2583%25A0%25E1%2583%2599%25E1%2583%2598&psig=AOvVaw3dvZaN5mGOpI1lABHYULYE&ust=1741372315680000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiynsWL9osDFQAAAAAdAAAAABAP"
+        imageUrl: "https://cdn.mygeotrip.com/file_manager/images/Sights/Natural%20sights/2/Kolkheti%20State%20Reserve%20and%20National%20park.jpg"
     },
     {
         id: 3,
         title:"mesame",
-        imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnationalparks.ge%2Fka%2Fsite%2Fkolxetinp&psig=AOvVaw3MmO6RUQ28qfuiyfo5bKTm&ust=1741372562744000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOi_pMKM9osDFQAAAAAdAAAAABAE"  
+        imageUrl: "https://i.pinimg.com/originals/12/5b/48/125b48ebd0b3457503761e6b4253eb41.jpg"  
+    },
+    {
+        id: 4,
+        title:"meotxe",
+        imageUrl: "https://i.pinimg.com/originals/2a/ee/56/2aee567a2ff8f2bfd74f66d85a1cdecd.jpg"  
     },
 
 ];
@@ -96,5 +101,12 @@ function arrowLeft(){
 
 arrowLeftBtn.addEventListener('click',arrowLeft)
 arrowRightBtn.addEventListener('click',arrowRight)
+
+// ავტომატურად გადასვლა მწ-ში
+
+// setInterval(()=>{
+//     arrowRight()
+// },3000)
+
 
 setSlider()
