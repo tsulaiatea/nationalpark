@@ -23,7 +23,7 @@ let data = [
     {
        id: 1,
        title:"pirveli",
-       imageUrl:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnationalparks.ge%2Fka%2Fsite%2Fkolxetinp&psig=AOvVaw3dvZaN5mGOpI1lABHYULYE&ust=1741372315680000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiynsWL9osDFQAAAAAdAAAAABAE"
+       imageUrl:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSummer&psig=AOvVaw2kwtw2-ZdmEa6iERxm1aUn&ust=1741555172863000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPjWkd60-4sDFQAAAAAdAAAAABAE"
     },
     {
         id: 2,
@@ -39,15 +39,15 @@ let data = [
 ];
 
 let sliderContainer = document.getElementById("slider")
-let arrowLeft = document.getElementById("arrow-left")
-let arrowRight = document.getElementById("arrow-right")
+let arrowLeftBtn = document.getElementById("arrow-left")
+let arrowRightBtn = document.getElementById("arrow-right")
 
 let sliderIndex = 0
 
 // სურათის შექმნის ფუნქცია
 
 function createImg(item){
-    sliderContainer.style.backgroundImage = 'url(${item.imageUrl})'
+    sliderContainer.style.backgroundImage = `url(${item.imageUrl})`
     sliderContainer.style.backgroundRepeat = 'no-repeat'
     sliderContainer.style.backgroundSize = 'cover'
 } 
@@ -58,7 +58,7 @@ function createH2tag(item) {
     
 
 let h2tag = document.createElement('h2')
-h2tag.textContent = item.title
+h2tag.innerText = item.title
 h2tag.classList.add('slider-title')
 return h2tag
 }  
@@ -66,6 +66,7 @@ return h2tag
 // მთავარი ფუნქცია, რომელშიც გამოჩნდება სურათები
 
 function setSlider(){
+    sliderContainer.innerText=''
     createImg(data[sliderIndex])
     let title = createH2tag(data[sliderIndex])
 
@@ -82,7 +83,7 @@ function arrowLeft(){
         setSlider()
     }
 
-    function arrowLRight(){
+    function arrowRight(){
         if(sliderIndex === data.length-1){
             sliderIndex = 0
         }else {
@@ -90,9 +91,10 @@ function arrowLeft(){
         }
         setSlider()
     }
-    arrowLeft.addEventListener('click', arrowLeft)
+    
 
 
-
+arrowLeftBtn.addEventListener('click',arrowLeft)
+arrowRightBtn.addEventListener('click',arrowRight)
 
 setSlider()
