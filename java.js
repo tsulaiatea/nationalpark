@@ -43,6 +43,8 @@ let data = [
 
 ];
 
+// ვასელექტებთ
+
 let sliderContainer = document.getElementById("slider")
 let arrowLeftBtn = document.getElementById("arrow-left")
 let arrowRightBtn = document.getElementById("arrow-right")
@@ -84,6 +86,7 @@ function setSlider(){
     
 }
 
+// ისრები
 function arrowLeft(){
         if(sliderIndex === 0){
             sliderIndex = data.length-1
