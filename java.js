@@ -80,7 +80,9 @@ function setSlider(){
 
     sliderContainer.appendChild(title)
     sliderContainer.appendChild(dots)
-    let dotElements = dots.querySelectorAll('dot')
+    let dotElements = dots.querySelectorAll('.dot')
+
+    
     dotElements[sliderIndex].classList.add('active')
     
     
@@ -104,17 +106,21 @@ function arrowLeft(){
         }
         setSlider()
     }
+
+ arrowLeftBtn.addEventListener('click',arrowLeft)
+ arrowRightBtn.addEventListener('click',arrowRight)
+
+   
     
 
 
-arrowLeftBtn.addEventListener('click',arrowLeft)
-arrowRightBtn.addEventListener('click',arrowRight)
+
 
 // ავტომატურად გადასვლა მწ-ში
 
-// setInterval(()=>{
-//     arrowRight()
-// },3000)
+setInterval(()=>{
+    arrowRight()
+},3000)
 
 
 // წერტილები
@@ -140,4 +146,5 @@ function createDots() {
 
     
 }
+setSlider ()
 
