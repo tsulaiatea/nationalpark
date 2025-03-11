@@ -266,6 +266,10 @@ a:hover {
     justify-content: center;
     
 }
+.container {
+    display: flex;
+   
+}
 
 /* contact */
 
@@ -293,3 +297,4 @@ a:hover {
 .form {
     background-color: blue;
 }
+
