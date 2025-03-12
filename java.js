@@ -248,7 +248,7 @@ function getUsers(page) {
         
         let fragment = document.createDocumentFragment()
         totalPages = responseData.total_pages
-        console.log(responseData);
+        
         
         responseData.data.forEach(function(item){
             let li = document.createElement('li')
@@ -287,8 +287,8 @@ document.getElementById('loadprev').addEventListener('clic',function(){
 
 })
 
-document,getElementById('loadnext').addEventListener('clic',function(){
-    if(currentPage == totalPage){
+document.getElementById('loadnext').addEventListener('clic',function(){
+    if(currentPage == totalPages){
         return
     }
     currentPage +=1
