@@ -298,3 +298,18 @@ document.getElementById('loadnext').addEventListener('clic',function(){
 
 
 getUsers(currentPage)
+
+
+// acordion
+
+let acordion = document.querySelectorAll('.acordion-container')
+// ეს გვიბრუნებს მასივს(ყველა ელემენტს )ამიტომ ვიყენებთ querSelectorall 
+
+acordion.forEach(item=> {
+    item.addEventListener('click', function(){
+        this.classList.toggle('active')
+    })
+
+})
+
+
