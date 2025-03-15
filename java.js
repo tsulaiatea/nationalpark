@@ -1,4 +1,4 @@
-// "use strict"
+"use strict"
 let links = document.getElementById ("links");
 let burger = document.getElementById ("burger");
 
@@ -18,7 +18,7 @@ burger. addEventListener("click", function() {
     
 });
 
-// slider
+// sliderer
 let data = [
     {
        id: 1,
@@ -107,8 +107,8 @@ function arrowLeft(){
         setSlider()
     }
 
- arrowLeftBtn.addEventListener('click',arrowLeft)
- arrowRightBtn.addEventListener('click',arrowRight)
+ arrowLeftBtn.addEventListener('click', arrowLeft)
+ arrowRightBtn.addEventListener('click', arrowRight)
 
    
     
@@ -262,6 +262,7 @@ function getUsers(page) {
 
 
         document.getElementById('ul_list').innerHTML =''
+
         document.getElementById('ul_list').appendChild(fragment)
 
 
@@ -278,7 +279,7 @@ function getUsers(page) {
     
 }
 
-document.getElementById('loadprev').addEventListener('clic',function(){
+document.getElementById('loadprev').addEventListener('click',function(){
     if(currentPage == 1){
         return
     }
@@ -287,7 +288,7 @@ document.getElementById('loadprev').addEventListener('clic',function(){
 
 })
 
-document.getElementById('loadnext').addEventListener('clic',function(){
+document.getElementById('loadnext').addEventListener('click',function(){
     if(currentPage == totalPages){
         return
     }
@@ -301,15 +302,34 @@ getUsers(currentPage)
 
 
 // acordion
+// // ეს გვიბრუნებს მასივს(ყველა ელემენტს )ამიტომ ვიყენებთ querSelectorall 
 
 let acordion = document.querySelectorAll('.acordion-container')
-// ეს გვიბრუნებს მასივს(ყველა ელემენტს )ამიტომ ვიყენებთ querSelectorall 
+
 
 acordion.forEach(item=> {
     item.addEventListener('click', function(){
         this.classList.toggle('active')
+        console.log(acordion);
     })
 
+
 })
+
+
+
+
+// // 2.accordion  მეორე გზა for ით
+// document.addEventListener('DOMContentLoaded', function(){
+// let acordion = document.getElementsByClassName('acordion-container')
+
+// for(let i=0; i< acordion.length; i++){
+//     acordion[i].addEventListener('click',function(){
+//         this.classList.toggle('active')
+// console.log(acordion.length);
+//     })
+    
+// }
+// })   
 
 
