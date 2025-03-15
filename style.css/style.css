@@ -381,12 +381,12 @@ a:hover {
     background-color: azure;
 }
 
-.acordion-container.active.acordion-description {
+.acordion-container.active .acordion-description {
     height: 200px;
     padding: 10px;
 }
 
-.acordion-container.active.acordion-title::before {
+.acordion-container.active .acordion-title::before {
     content: "-";
     font-size: 25px;
 }
