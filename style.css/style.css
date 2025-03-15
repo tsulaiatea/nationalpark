@@ -114,8 +114,8 @@ header {
 
 .logo {
     
-    height: 30px;
-    margin-top: 10px;
+    height: 40px;
+    margin-top: 5px;
     margin-left: 20px;
 }
 
@@ -191,6 +191,12 @@ a:hover {
     width: 4px;
     height: 30px;
     background-color:rgba(244, 76, 57, 0.503); 
+}
+.fa-youtube {
+    color: rgba(227, 14, 14, 0.877);
+}
+.fa-facebook {
+    color: blue;
 }
 
 /* ნიუსები */
