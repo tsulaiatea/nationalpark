@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#home {
+    background-color: rgb(135, 188, 244);
+}
 
 /* slider */
 
@@ -58,6 +61,7 @@
     color: azure;
     padding: 20px 70px;
     text-align: center;
+    
 }
 
 /* წერტილები*/
@@ -110,6 +114,7 @@ header {
     left: 0;
     width: 100%;
     height: 70px;
+    z-index: 3;
 }
 
 .logo {
@@ -167,16 +172,39 @@ a:hover {
    margin-left: 30px;
    font-family: 'BPG WEB 002 Caps';
    font-size: 50px;
+   z-index: 10;
 
-}
-.text {
-    margin-left: 30px;
+} */
+ .text {
+    margin-top: 20px;
+    margin-left: 150px;
     font-family: "Arial GEO Bold", sans-serif;
     font-size: 30px;
-    color: rgba(156, 246, 242, 0.503);
-} */
+    font-weight: bold;
+    color: rgba(11, 11, 11, 0.937);
+}  
+.mtavari {
+    margin-left: 150px;
+    margin-top: 20px;
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.mtavari_img {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+   
+     
+}
 .icons {
-    position:fixed;
+    max-width: 1920px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(138, 238, 188);
+    padding: 20px;
     bottom: 10px; 
     right: 10px;
     font-size: 30px;
