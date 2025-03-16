@@ -22,22 +22,22 @@ burger. addEventListener("click", function() {
 let data = [
     {
        id: 1,
-       title:" ",
+       title:"კოლხეთის ეროვნული პარკი",
        imageUrl:"https://georgiantour.com/wp-content/uploads/2015/04/15121_293888440758581_1896679685_n.jpg"
     },
     {
         id: 2,
-        title:" ",
+        title:"კოლხეთის ეროვნული პარკი",
         imageUrl: "https://cdn.mygeotrip.com/file_manager/images/Sights/Natural%20sights/2/Kolkheti%20State%20Reserve%20and%20National%20park.jpg"
     },
     {
         id: 3,
-        title:" ",
+        title:" კოლხეთის ეროვნული პარკი",
         imageUrl: "https://i.pinimg.com/originals/12/5b/48/125b48ebd0b3457503761e6b4253eb41.jpg"  
     },
     {
         id: 4,
-        title:" ",
+        title:" კოლხეთის ეროვნული პარკი",
         imageUrl: "https://i.pinimg.com/originals/2a/ee/56/2aee567a2ff8f2bfd74f66d85a1cdecd.jpg"  
     },
 

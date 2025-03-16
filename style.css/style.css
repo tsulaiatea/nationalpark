@@ -55,10 +55,10 @@
     top: 10%;
     left: 30%;
     transform: translate(-50%, -50%);
-    /* font-family: ; */
-    /* font-size: ; */
+     font-family: 'BPG WEB 002 Caps'; 
+    font-size: 30px;
     letter-spacing: 0.15rem;
-    color: azure;
+    color: rgb(236, 156, 8);
     padding: 20px 70px;
     text-align: center;
     
@@ -195,19 +195,41 @@ a:hover {
 .mtavari_img {
     width: 300px;
     height: 250px;
+    object-fit: cover;
     cursor: pointer;
    
      
 }
-.icons {
+.mtavari_img:hover {
+    content: "";
+    width: 400px;
+    height: 300px;
+    opacity: 0,2;
+}
+.sakontacto {
     max-width: 1920px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgb(138, 238, 188);
+    margin-top: 20px;
+    
     padding: 20px;
     bottom: 10px; 
     right: 10px;
-    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons {
+    /* max-width: 1920px; */
+    /* width: 100%;
+    height: 100px;
+    margin-top: 20px; */
+    /* background-color: rgb(138, 238, 188); */
+    /* padding: 20px;
+    bottom: 10px; 
+    /* right: 10px; */
+     font-size: 30px; 
     color: rgba(244, 76, 57, 0.503);
     display: flex;
     gap: 10px;
