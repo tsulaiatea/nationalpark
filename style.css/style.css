@@ -7,7 +7,10 @@
 #home {
     background-color: rgb(135, 188, 244);
 }
-
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 /* slider */
 
 #slider {
@@ -207,7 +210,7 @@ a:hover {
     opacity: 0,2;
 }
 .sakontacto {
-    max-width: 1920px;
+    max-width: 1600px;
     width: 100%;
     height: 80px;
     background-color: rgb(138, 238, 188);
@@ -299,6 +302,8 @@ a:hover {
 
 /* about */
 .servis {
+    
+    width: 100%;
     margin-top: 75px;
   
 }
@@ -312,32 +317,105 @@ a:hover {
     padding: 10px;
     }
 .divider1 {
+    
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .servis1 {
     width: 400px;
+    
+}
+.servis1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial GEO ", sans-serif;
+    color: blue;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.servis1 h3:hover {
+    color: rgb(135, 135, 213);
 }
 .servis1 img {
     width: 350px;
+    margin-top: 10px;
+}
+.ab_text {
+    font-size: 16px;
+    text-align: start;
+    font-family: "Arial GEO ", sans-serif;
+    color: rgb(25, 25, 26);
+    
 }
 .video {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     
 }
-/* .section_ebaut{
-    display: flex;
-    justify-content: space-around;
-} */
+.ebaut--title {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
 .container {
-    /* display: flex; */
-   margin-left: 30px;
-   margin-top: 50px;
+    /* max-width: 1024px; */
+    width: 100%;
+   display: flex; 
+   /* justify-content: center; */
+   align-items: center;
+   
+   width: fit-content;
+   /* margin-left: 30px; */
+   /* margin-top: 50px; */
    background-color: rgb(189, 189, 244);
 }
 .container ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    gap: 30px;
+    padding-top: 5px;
+    list-style: none;
+}
+#ul_list li {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column; 
+     align-items: center; 
+    gap: 10px;
+}
+#ul_list img {
+    order: -1;
+    max-width: 200px;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+/* #ul_list li .email {
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+} */
+#loadprev {
+    width: 45px;
+    height: 35px;
+    background-color: blueviolet;
+    border-radius: 20%;
+    cursor: pointer;
+    
+}
+#loadnext {
+    width: 45px;
+    height: 35px;
+    background-color: blueviolet;
+    border-radius: 20%;
+    cursor: pointer;
+    
 }
 
 /* contact */
@@ -387,7 +465,7 @@ a:hover {
 }
 .acordion-container {
     max-width: 870px;
-    width: 1005;
+    width: 100%;
     margin: 0 auto;
     
 }
