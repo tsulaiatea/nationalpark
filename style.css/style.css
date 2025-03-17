@@ -29,7 +29,7 @@ html, body {
     width: 45px;
     height: 45px;
     background-color: blueviolet;
-    border-radius: 20%;
+    border-radius: 50%;
     color: aquamarine;
     cursor: pointer;
     border: none;
@@ -178,9 +178,9 @@ a:hover {
    z-index: 10;
 
 } */
- .text {
+ .text h2 {
     margin-top: 20px;
-    margin-left: 150px;
+    text-align: center;
     font-family: "Arial GEO Bold", sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -277,13 +277,24 @@ a:hover {
    
     
 }
+.image ::first-line{
+    font-weight: bold;
+    color: brown;
+}
+
+
+
 .img {
     width: 260px;
     height: 350px;
+    object-fit: cover;
+    cursor: pointer;
 }
-.img:hover {
-    position: contain;
-}
+/* .img:hover {
+    content: "";
+    width: 300px;
+    height: 400px;
+} */
 
 .foto {
     display: flex;
@@ -291,13 +302,33 @@ a:hover {
     background-color: rgba(170, 243, 152, 0.934);
     margin-left: 10px;
     margin-top: 10px;
-    padding: 5px;
+    /* padding: 5px; */
+    gap: 10px;
+   
+    
+}
+.text-cont {
+   padding-left: 20px;
+   padding-top: 60px;
+   font-size: 16px;
+   font-family: "Arial GEO ", sans-serif;
+   color: rgb(68, 68, 69);
+   cursor: pointer;
+   
+}
+.text-cont:hover{
+    color: brown;
+    font-weight: bold;
+   
 }
 
-.foto img {
-   height: 400px;
+.img-cont {
+   
+   width: 100%;
+  padding: 20px;
+  object-fit: cover;
 }
-/* უნდა გავსტილო ტექსტი article*/
+
 
 
 /* about */
@@ -321,9 +352,11 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    background-color: rgb(235, 224, 146);
 }
 .servis1 {
     width: 400px;
+    background-color: aquamarine;
     
 }
 .servis1 h3 {
@@ -333,6 +366,7 @@ a:hover {
     color: blue;
     padding-left: 20px;
     cursor: pointer;
+    text-align: center;
 }
 .servis1 h3:hover {
     color: rgb(135, 135, 213);
@@ -340,20 +374,30 @@ a:hover {
 .servis1 img {
     width: 350px;
     margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
 }
 .ab_text {
-    font-size: 16px;
-    text-align: start;
+    font-size: 14px;
+    text-align:start;
     font-family: "Arial GEO ", sans-serif;
     color: rgb(25, 25, 26);
+    margin-top: 10px;
+    padding-left: 20px;
     
+}
+.servis1 ul li {
+    padding-left: 20px;
+    color: rgb(4, 2, 42);
 }
 .video {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: aqua;
     
 }
+
 .ebaut--title {
     margin-top: 20px;
     margin-left: 30px;
