@@ -434,7 +434,8 @@ h4:hover{
     transform: scale(1.05);
 }
 
-.ebaut--title {
+/* ინფორმაციის წამოღება */
+.abaut--title {
     margin-top: 20px;
     margin-left: 30px;
     font-size: 24px;
@@ -469,13 +470,19 @@ h4:hover{
 #ul_list p {
     margin-top: 10px;
     font-size: 16px;
-    color: #333;
+    color: #161515;
+}
+.button-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
 }
 
 #loadprev {
-    width: 50px;
+    width: 70px;
     height: 50px;
-    background-color: blueviolet;
+    background-color: rgb(72, 83, 88);
     border-radius: 20%;
     cursor: pointer;
     padding-top: 2px;
@@ -484,16 +491,16 @@ h4:hover{
     
 }
 #loadnext {
-    width: 50px;
+    width: 70px;
     height: 50px;
-    background-color: blueviolet;
+    background-color:rgb(72, 83, 88); 
     border-radius: 20%;
     cursor: pointer;
     padding-top: 2px;
     
     
     
-}
+} 
 
 /* contact */
 
