@@ -346,24 +346,33 @@ a:hover {
   
 }
 .servis h2 {
-    background-color: rgb(133, 230, 98);
+    background-color: rgb(223, 226, 221);
     display: block;
     text-align: center;
     font-family: 'BPG WEB 002 Caps';
     font-size: 24px;
     color: rgba(255, 89, 0, 0.797);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     padding: 10px;
     }
-.divider1 {
-    
+ .divider1 {
+    padding: 10px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(235, 224, 146);
-}
+     justify-content: space-around; 
+    background-color: rgb(241, 241, 239);
+} 
 .servis1 {
-    width: 400px;
-    background-color: aquamarine;
+    width: 30%;
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
     
 }
 .servis1 h3 {
@@ -374,37 +383,41 @@ a:hover {
     padding-left: 20px;
     cursor: pointer;
     text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 .servis1 h3:hover {
     color: rgb(135, 135, 213);
 }
-.servis1 img {
-    width: 350px;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
+.servis1-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 5px;
+    
 }
 .ab_text {
-    font-size: 14px;
+    font-size: 16px;
     text-align:start;
     font-family: "Arial GEO ", sans-serif;
     color: rgb(2, 2, 51);
-    margin-top: 10px;
-    padding-left: 20px;
+    flex-grow: 1;
+     margin-top: 10px;
+    
     
 }
 .servis1 ul li {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: rgb(4, 2, 42);
-    list-style: none;
+     list-style: none; 
 }
-.video {
+/* .video {
     display: flex;
-    justify-content: center;
+    
+    justify-content: center; 
     margin-top: 20px;
     background-color: aqua;
     
-}
+} */
 h4 {
     text-align: center;
     font-size: 24px;
@@ -414,13 +427,14 @@ h4 {
     font-weight: bold;
     font-family: "Arial GEO ", sans-serif;
     cursor: pointer;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 h4:hover{
     color: rgb(245, 138, 8);
     
 }
 .ab-section {
-   /* background-color: gray; */
+   
    display: flex;
    justify-content: center;
    gap: 20px;
@@ -436,10 +450,10 @@ h4:hover{
 .ab-section  img {
     width: 100%;
     height: 200px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgb(0, 0, 0);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; 
 }
 /* მაუსზე შეხებისას ზომა ოდნავ გაიზრდება */
 .ab-section img:hover {
@@ -451,6 +465,7 @@ h4:hover{
     margin-top: 20px;
     margin-left: 30px;
     font-size: 24px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -464,7 +479,7 @@ h4:hover{
 }
 #ul_list li {
     display: inline-block;
-    margin-left: 10px;
+     margin-left: 10px; 
     
     align-items: center;
     text-align: center;
