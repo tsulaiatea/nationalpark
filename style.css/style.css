@@ -61,7 +61,8 @@ html, body {
      font-family: 'BPG WEB 002 Caps'; 
     font-size: 30px;
     letter-spacing: 0.15rem;
-    color: rgb(236, 156, 8);
+    color: rgb(245, 242, 238);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
     padding: 20px 70px;
     text-align: center;
     
@@ -91,24 +92,6 @@ html, body {
 
 }
 
-
-
-/* #home {
-    height: 100%;
-    
-    background-color: aquamarine;
-    background-image: url("https://nationalparks.ge/files/155255317835%E1%83%99%E1%83%9D%E1%83%9A%E1%83%AE%E1%83%94%E1%83%97%E1%83%981.jpg");
-    background-size:cover;
-    background-position: center; 
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-   
-
-}
-.other {
-    background-image: none;
-    /* background-color: gray; */
-/* } */
 
 header {
     background-color: rgb(156, 246, 241);
@@ -166,18 +149,7 @@ a:hover {
 
 /* დასრულდა header */
 
-/* .title {
-   
-   margin-top: 200px;
-   display: inline-block;
-   color: rgb(245, 107, 43);
-  
-   margin-left: 30px;
-   font-family: 'BPG WEB 002 Caps';
-   font-size: 50px;
-   z-index: 10;
 
-} */
  .text h2 {
     margin-top: 20px;
     text-align: center;
@@ -209,42 +181,82 @@ a:hover {
     height: 300px;
     opacity: 0,2;
 }
-.sakontacto {
-    max-width: 1600px;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(138, 238, 188);
+
+
+ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background: #9b9d9e; 
+    color: rgb(236, 246, 231);
+    text-align: center;
+    padding: 30px;
     margin-top: 20px;
     
-    padding: 20px;
-    bottom: 10px; 
-    right: 10px;
+ }
+ .sakontacto {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .sakontacto ul li a {
+    color: #a4f0d0;
+ }
+
+ .icons-top {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ }
+ .icons-top i {
+    font-size: 24px;
+    color: #f7f4f4;
+ }
+ .icons-top i:hover {
+    color: #161515;
+ }
+ ul {
+    list-style: none;
+    padding: 0;
 
 }
 .icons {
-    
-    font-size: 30px; 
-    color: rgba(244, 76, 57, 0.503);
     display: flex;
+    justify-content: center;
     gap: 10px;
+    margin-top: 10px;
 }
-.icons :hover {
-    color: rgb(2, 13, 43);
-}
+
 .line-line {
     width: 4px;
     height: 30px;
-    background-color:rgba(244, 76, 57, 0.503); 
+    background-color:white
 }
 .fa-youtube {
     color: rgba(227, 14, 14, 0.877);
     font-size: 24px;
 }
+.fa-youtube:hover {
+    
+    font-size: 30px;
+}
 .fa-facebook {
     color: blue;
     font-size: 24px;
+}
+.fa-facebook:hover {
+   
+    font-size: 30px;
+}
+.fa-twitter {
+    font-size: 24px;
+    color: #ccc;
+}
+.fa-twitter:hover {
+    font-size: 30px;
 }
 
 /* ნიუსები */
@@ -462,8 +474,8 @@ h4:hover{
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 #ul_list img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -480,8 +492,8 @@ h4:hover{
 }
 
 #loadprev {
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     background-color: rgb(72, 83, 88);
     border-radius: 20%;
     cursor: pointer;
@@ -490,17 +502,21 @@ h4:hover{
     
     
 }
+#loadprev:hover {
+    background-color: #9b9d9e;
+}
 #loadnext {
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     background-color:rgb(72, 83, 88); 
     border-radius: 20%;
     cursor: pointer;
     padding-top: 2px;
-    
-    
-    
+
 } 
+#loadnext:hover {
+    background-color: #9b9d9e;
+}
 
 /* contact */
 
