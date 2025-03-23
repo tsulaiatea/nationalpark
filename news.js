@@ -30,3 +30,15 @@ acordion.forEach(item=> {
 // })   
 
 
+function toggleText () {
+    let text = document.getElementById("hidden-text")
+    let btn = document.getElementById("toggle-btn")
+
+    if (text.style.display === "none" || text.style.display === "") {
+        text.style.display = "block"
+        btn.innerText ="დამალვა"
+    } else {
+        text.style.display = "none"
+        btn.innerText = "მეტის ნახვა"
+    }
+}
