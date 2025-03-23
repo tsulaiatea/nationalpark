@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 #home {
-    background-color: rgb(135, 188, 244);
+    background-color: rgb(131, 178, 228);
 }
 html, body {
     overflow-x: hidden;
     width: 100%;
+}
+.other {
+    background-color: #e7e7ef;
 }
 /* slider */
 
