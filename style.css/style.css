@@ -271,11 +271,11 @@ a:hover {
 .image {
     width: 500px;
     /* height: 400px; */
-    background-color: aliceblue;
+    background-color: rgb(236, 241, 246);
     display: flex;
     justify-content: space-evenly;
     text-align:left;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Arial GEO ", sans-serif;
     padding-top: 70px;
     padding-right: 10px;
@@ -359,7 +359,7 @@ a:hover {
     text-align: center;
     font-family: 'BPG WEB 002 Caps';
     font-size: 24px;
-    color: rgba(255, 89, 0, 0.797);
+    color: rgba(11, 13, 103, 0.797);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     padding: 10px;
     }
@@ -414,9 +414,10 @@ a:hover {
     
 }
 .servis1 ul li {
-    /* padding-left: 20px; */
+   
     color: rgb(4, 2, 42);
      list-style: none; 
+     text-align: left;
 }
 /* .video {
     display: flex;
@@ -625,7 +626,7 @@ button:hover {
     margin: 0 auto;
 }
 .wraper-body {
-    background-color: rgb(208, 193, 187);
+    background-color: rgb(250, 147, 113);
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
