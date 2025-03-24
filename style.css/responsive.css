@@ -163,4 +163,35 @@
 }
 
     /* სიახლეები */
+ @media (max-width: 768px){
+
+ }
+
+ @media (max-width: 480px){
+
+}
+
+    /* კონტაქტი */
+
+@media (max-width: 768px) {
+
+ }
+
+ @media (max-width: 480px){
+    .div-contact {
+        background-color: white;
+        display: block;
+    }
+    .div-map {
+        width: 300px;
+        height: 180px;
+        margin: 0 auto;
+        padding-right: 5px;
+    }
+    .div-contact h2 {
+        font-size: 20px;
+    }
+   
+
     
+ }
