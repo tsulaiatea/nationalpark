@@ -20,7 +20,7 @@
         display: block;
         background-color: rgb(193, 218, 217);
     }
- 
+        /* მთავარი გვერდი */
     .arrow-left {
         left: 115px;
     }
@@ -78,3 +78,89 @@
        
         
 }
+
+/*  სერვისები */
+
+@media (max-width: 768px) {
+    .servis h2 {
+        font-size: 20px;
+    }
+    .divider1 {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       gap: 10px;
+    }
+    .divider1 :first-child {
+        width: 48%; 
+    }
+    .divider1 :nth-child(2){
+        width: 48%;
+    }
+    .divider1 :last-child {
+        width: 100%;
+        
+    } 
+    .servis1 {
+        background-color: rgb(218, 248, 238);
+    }
+    .servis1 h3 {
+        font-size: 20px;
+    }
+    .servis1-img {
+        width: 600px;
+        
+        cursor: pointer;
+        /* object-fit: contain;  */
+         
+    }
+    .ab_text {
+        font-weight: bold;
+    }
+    .servis1 ul li {
+        font-weight: bold;
+    }
+       
+} 
+  /* მობილური */
+@media (max-width: 480px) {
+    .servis h2 {
+        font-size: 18px;
+    }
+    .divider1 {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       gap: 5px;
+    }
+    .divider1 :first-child {
+        width: 100%; 
+    }
+    .divider1 :nth-child(2){
+        width: 100%;
+    }
+    .divider1 :last-child {
+        width: 100%;
+        
+    } 
+    .servis1 {
+        background-color: rgb(241, 245, 221);
+    }
+    .servis1 h3 {
+        font-size: 18px;
+    }
+    .servis1-img {
+        padding-top: 5px;
+    }
+    .ab_text {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .servis1 ul li {
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+    /* სიახლეები */
+    
