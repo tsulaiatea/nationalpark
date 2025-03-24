@@ -18,7 +18,63 @@
     }
     .active{
         display: block;
+        background-color: rgb(193, 218, 217);
     }
  
+    .arrow-left {
+        left: 115px;
+    }
+    .arrow-right {
+        right: 115px;
+    }
+    .text h2 {
+        font-size: 24px;
+        
+    }
+    #home {
+        background-color: aqua;
+    }
 
+    .mtavari {
+        justify-content: center;
+         flex-wrap: wrap; 
+         margin-left: auto;
+        gap: 15px;
+    }
+    .mtavari_img {
+        width: 300px;
+        height:200px;
+    }
+    .mtavari_img:hover {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+/* mobail */
+@media (max-width: 480px) {
+    .arrow-left {
+        left: 40px;
+    }
+    .arrow-right {
+        right: 40px;
+    }
+    .text h2 {
+        font-size: 16px;
+        
+    }
+    #slider {
+        width: 90%;
+        height: 75vh;
+    }
+    .slider-title {
+        font-size: 24px;
+        color: rgb(43, 36, 36);
+        font-weight: bold;
+    }
+    #home {
+        background-color: antiquewhite;
+    }
+       
+        
 }
