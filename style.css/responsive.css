@@ -171,6 +171,7 @@
         background-color: rgb(242, 245, 244);
         
     }
+   
     .wraper-body {
         width: 90%;
         padding: 10px;
@@ -199,11 +200,16 @@
    }
    .image {
     font-size: 14px;
-    
-    
-   }
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 25px;
+    }
    .img {
-    margin-right: 5px;
+   
     width: 200px;
     height: 200px;
     
