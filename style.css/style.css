@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 #home {
-    background-color: rgb(131, 178, 228);
+    background-color: rgb(233, 236, 240);
 }
 html, body {
     overflow-x: hidden;
@@ -284,8 +284,10 @@ a:hover {
     text-align:left;
     font-size: 16px;
     font-family: "Arial GEO ", sans-serif;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 5px;
     box-sizing: border-box;
     gap: 10px;
    
@@ -307,7 +309,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(170, 243, 152, 0.934);
+    background-color: rgba(205, 246, 195, 0.934);
     padding: 20px;
     gap: 10px;
     text-align: center;
@@ -345,6 +347,7 @@ a:hover {
   border-radius: 10px;
   object-fit: cover;
   cursor: pointer;
+  margin-top: 70px;
 }
 
 
@@ -365,6 +368,8 @@ a:hover {
     color: rgba(11, 13, 103, 0.797);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
     padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     }
  .divider1 {
     padding: 10px;
@@ -630,7 +635,7 @@ button:hover {
     margin: 0 auto;
 }
 .wraper-body {
-    background-color: rgb(250, 147, 113);
+    background-color: rgb(125, 147, 130);
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
