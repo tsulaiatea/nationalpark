@@ -40,6 +40,12 @@ let data = [
         title:" კოლხეთის ეროვნული პარკი",
         imageUrl: "https://i.pinimg.com/originals/2a/ee/56/2aee567a2ff8f2bfd74f66d85a1cdecd.jpg"  
     },
+    {
+        id: 5,
+        title:"კოლხეთის ეროვნული პარკი",
+        imageUrl: "https://www.georgianholidays.com/storage/e8rPc14jR9RqyCf2z1QwLtyLXtUKAolBGw93v7f3.jpeg"  
+    },
+    
 
 ];
 
