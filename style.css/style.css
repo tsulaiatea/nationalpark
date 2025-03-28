@@ -170,7 +170,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    /* flex-wrap: wrap; */
+   
 }
 .mtavari_img {
     width: 300px;
