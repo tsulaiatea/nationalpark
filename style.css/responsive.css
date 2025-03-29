@@ -127,12 +127,14 @@
        justify-content: space-between;
        flex-wrap: wrap;
        gap: 10px;
+       
     }
     .divider1 :first-child {
-        width: 48%; 
+        width: 100%; 
+        
     }
     .divider1 :nth-child(2){
-        width: 48%;
+        width: 100%;
     }
     .divider1 :last-child {
         width: 100%;
@@ -146,7 +148,7 @@
     }
     .servis1-img {
         width: 600px;
-        
+        padding-top: 10px;
         cursor: pointer;
         /* object-fit: contain;  */
          
