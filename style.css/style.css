@@ -301,7 +301,7 @@ a:hover {
 }
  .img {
     width: 260px;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     cursor: pointer;
 } 
