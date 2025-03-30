@@ -31,19 +31,21 @@ html, body {
     transform: translateY(-50%);
     width: 45px;
     height: 45px;
-    background-color: blueviolet;
+    background-color: rgb(113, 125, 188);
     border-radius: 50%;
-    color: aquamarine;
+    color: rgb(196, 235, 222);
     cursor: pointer;
     border: none;
     font-size: 15px;
     z-index: 2;
+    padding-top: 5px;
     
 
 
 }
 .arrow-left {
     left: 235px;
+    
 }
 .arrow-right {
     right: 235px;
@@ -277,8 +279,8 @@ a:hover {
 }
 .image {
     width: 500px;
-    /* height: 400px; */
-    background-color: rgb(236, 241, 246);
+   
+    /* background-color: rgb(236, 241, 246); */
     display: flex;
     justify-content: space-evenly;
     text-align:left;
@@ -299,17 +301,18 @@ a:hover {
 }
  .img {
     width: 260px;
-    height: 350px;
+    height: 250px;
     object-fit: cover;
     cursor: pointer;
 } 
+
 
 
 .foto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(205, 246, 195, 0.934);
+    background-color: rgba(214, 239, 208, 0.934);
     padding: 20px;
     gap: 10px;
     text-align: center;
@@ -427,14 +430,7 @@ a:hover {
      list-style: none; 
      text-align: left;
 }
-/* .video {
-    display: flex;
-    
-    justify-content: center; 
-    margin-top: 20px;
-    background-color: aqua;
-    
-} */
+
 h4 {
     text-align: center;
     font-size: 24px;
@@ -549,6 +545,25 @@ h4:hover{
 #loadnext:hover {
     background-color: #9b9d9e;
 }
+.fa-arrow-left {
+    font-size: 20px;
+    
+    padding-top: 8px;
+    text-align: center;
+}
+.fa-arrow-left:hover {
+    color: #161515;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+    padding-top: 8px;
+}
+.fa-arrow-right:hover{ 
+    color: #161515;
+}
+
+
 
 /* contact */
 
@@ -559,12 +574,12 @@ h4:hover{
     padding: 30px;
     font-weight: bold;
     gap: 30px;
-    background-color: rgb(238, 215, 235);
+    /* background-color: rgb(238, 215, 235); */
 }
 .div-contact h2 {
     font-family: 'BPG WEB 002 Caps';
     font-size: 24px;
-    color: rgb(232, 232, 238);
+    color: rgb(21, 21, 37); 
 }
 .div-li {
     margin-top: 50px;
@@ -572,6 +587,9 @@ h4:hover{
     color: rgb(12, 27, 6);
 
 }
+/* .fa-arrow-right {
+    font-size: 25px;
+} */
 
 
 
@@ -635,7 +653,7 @@ button:hover {
     margin: 0 auto;
 }
 .wraper-body {
-    background-color: rgb(125, 147, 130);
+    background-color: rgb(181, 205, 205);
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
