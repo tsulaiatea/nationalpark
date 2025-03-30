@@ -204,7 +204,7 @@
     /* სიახლეები */
  @media (max-width: 768px){
     .divider {
-        flex-wrap: nowrap; 
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         background-color: rgb(242, 245, 244);

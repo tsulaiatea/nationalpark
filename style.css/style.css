@@ -270,7 +270,7 @@ a:hover {
 
 .divider {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     
     
@@ -279,6 +279,7 @@ a:hover {
 }
 .image {
     width: 500px;
+   
    
     /* background-color: rgb(236, 241, 246); */
     display: flex;
